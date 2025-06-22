@@ -16,7 +16,7 @@ st.sidebar.title("📌 Info Aplikasi")
 st.sidebar.markdown("""
 Aplikasi ini memprediksi risiko diabetes berdasarkan data medis pasien.
 - Model: Random Forest
-- Akurasi: 78% (contoh)
+- Akurasi: 80%
 - Dibuat untuk portofolio
 """)
 
