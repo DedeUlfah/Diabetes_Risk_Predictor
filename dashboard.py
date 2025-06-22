@@ -29,7 +29,7 @@ input_data = pd.DataFrame({
 
 # predict button
 if st.button("Predict"):
-    loaded_model = joblib.load("C:/Users/ASUS/Documents/miniprojek/diabetes/random_forest_diabetes.pkl")
+    loaded_model = joblib.load("random_forest_diabetes.pkl")
     prediction = loaded_model.predict(input_data)[0]
     if prediction == 1:
         st.error("Hasil: Beresiko diabetes")
