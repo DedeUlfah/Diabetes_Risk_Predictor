@@ -6,7 +6,7 @@ import joblib
 # Load model
 # model = joblib.load(r'C:\Users\ASUS\Documents\miniprojek\diabetes\random_forest_diabetes.pkl')
 from pathlib import Path
-model_path = Path("C:/Users/ASUS/Documents/miniprojek/diabetes/random_forest_diabetes.pkl")
+model_path = Path("random_forest_diabetes.pkl")
 model = joblib.load(model_path)
 
 st.set_page_config(page_title="Diabetes Risk Predictor", layout="wide")
